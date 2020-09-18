@@ -18,5 +18,8 @@ def take_a_number(names, name_to_add)
 end
 
 def now_serving(names)
+  if names.empty?
+    puts "There is nobody waiting to be served!"
   
+  end
 end
