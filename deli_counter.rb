@@ -11,3 +11,7 @@ def line(names)
     puts "The line is currently: " + stringified_positions
   end
 end
+
+def take_a_number(names, name_to_add)
+  names.push(name_to_add)
+end
