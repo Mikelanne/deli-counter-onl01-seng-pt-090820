@@ -16,3 +16,7 @@ def take_a_number(names, name_to_add)
   names.push(name_to_add)
   puts "Welcome, #{name_to_add}. You are number #{names.length} in line."
 end
+
+def now_serving(names)
+  
+end
